@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background-color: #4cd3c2;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 140px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ffa931;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-bottom: 20px;
+}
+
+.row{
+  margin: 0;
+}
+
+.footer {
+  color: #8f8f8f;;
+  font-family: sans-serif;
+}
+
+.footer-link{
+  padding: 20px;
+}
+
+.bottom-container{
+background-color: #a3f7bf;
+margin-top: 145px;
+padding: 10px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.s1, .s2, .s3, .s4, .s5, .s6{
+  background-image:url("Images/Guitar/temp.png");
+}
+
+/* .s2{
+  background-image:url("Images/Guitar/temp.png");
+}
+
+.s3{
+  background-image:url("Images/Guitar/temp.png");
+}
+
+.s4{
+  background-image:url("Images/Guitar/temp.png");
+}
+
+.s5{
+  background-image:url("Images/Guitar/temp.png");
+}
+
+.s6{
+  background-image:url("Images/Guitar/temp.png");
+} */
+
+.guitar {
+  outline: none;
+  border: 5px solid #649d66;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #f69e7b;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
